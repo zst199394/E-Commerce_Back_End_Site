@@ -1,5 +1,5 @@
 const { Category } = require('../models');
-
+Category.sync()
 const categoryData = [
   {
     category_name: 'Shirts',
